@@ -1,0 +1,8 @@
+[submodule "hotel-booking-system"]
+	path = hotel-booking-system
+	url = https://github.com/danialg09/hotel-booking-system
+	branch = integration
+[submodule "bank-card-management-system"]
+	path = bank-card-management-system
+	url = https://github.com/danialg09/bank-card-management-system
+	branch = integration
