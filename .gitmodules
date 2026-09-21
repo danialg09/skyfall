@@ -6,3 +6,7 @@
 	path = bank-card-management-system
 	url = https://github.com/danialg09/bank-card-management-system
 	branch = integration
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/danialg09/api-gateway
+	branch = skyfall
