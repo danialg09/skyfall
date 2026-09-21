@@ -61,7 +61,7 @@ services:
     build:
       context: ./bank-card-management-system
     ports:
-      - "8080:8080"
+      - "8081:8080"
     depends_on:
       - postgres-bank
       - redis
@@ -76,7 +76,7 @@ services:
     build:
       context: ./hotel-booking-system
     ports:
-      - "8081:8080"
+      - "8082:8080"
     depends_on:
       - postgres-hotel
       - redis
@@ -88,3 +88,11 @@ services:
       SPRING_DATA_MONGODB_HOST: mongodb
       SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:29092
       APP_JWT_SECRET: 3cfa76ef14937c7c0facbbdc7b69273aе8b1b59c9d52d9646c2438577884297123984719283748237498273498273492
+  api-gateway:
+    build:
+      context: ./api-gateway
+    ports:
+      - "8080:8080"
+    depends_on:
+      - bank-system
+      - hotel-system
