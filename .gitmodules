@@ -1,0 +1,12 @@
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/danialg09/api-gateway.git
+	branch = test
+[submodule "bank-card-management-system"]
+	path = bank-card-management-system
+	url = https://github.com/danialg09/bank-card-management-system.git
+	branch = test
+[submodule "hotel-booking-system"]
+	path = hotel-booking-system
+	url = https://github.com/danialg09/hotel-booking-system.git
+	branch = test
